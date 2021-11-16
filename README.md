@@ -1,6 +1,7 @@
 <h1><img src="https://raw.githubusercontent.com/AJMitev/FileTypeChecker.Web/master/tools/FileTypeCheckerLogo-150.png" align="left" alt="FileTypeChecker" width="90">FileTypeChecker.Web - Don't let anyone to inject you an invalid file</h1>
 
-[![Build status](https://ci.appveyor.com/api/projects/status/jwd8wyyap0tijs3y?svg=true)](https://ci.appveyor.com/project/AJMitev/filetypechecker-web)  [![NuGet Badge](https://buildstats.info/nuget/File.TypeChecker.Web)](https://www.nuget.org/packages/File.TypeChecker.Web/)  [![License: GPL-3.0-or-later](https://img.shields.io/badge/GPL-3.0-blue.svg)](https://github.com/AJMitev/FileTypeChecker.Web/blob/master/LICENSE) 
+[![Build status](https://ci.appveyor.com/api/projects/status/jwd8wyyap0tijs3y?svg=true)](https://ci.appveyor.com/project/AJMitev/filetypechecker-web)  [![NuGet Badge](https://buildstats.info/nuget/File.TypeChecker.Web)](https://www.nuget.org/packages/File.TypeChecker.Web/)  [![License: GPL-3.0-or-later](https://img.shields.io/badge/GPL-3.0-blue.svg)](https://github.com/AJMitev/FileTypeChecker.Web/blob/master/LICENSE)  [![CodeFactor](https://www.codefactor.io/repository/github/ajmitev/filetypechecker.web/badge)](https://www.codefactor.io/repository/github/ajmitev/filetypechecker.web)
+
 
 ## Project Description
 
