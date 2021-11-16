@@ -1,6 +1,6 @@
 <h1><img src="https://raw.githubusercontent.com/AJMitev/FileTypeChecker.Web/master/tools/FileTypeCheckerLogo-150.png" align="left" alt="FileTypeChecker" width="90">FileTypeChecker.Web - Don't let users to inject you an invalid file</h1>
 
-[![Build status](https://ci.appveyor.com/api/projects/status/jx9bcrxs95srhxsj?svg=true)](https://ci.appveyor.com/project/AJMitev/filetypechecker)  [![NuGet Badge](https://buildstats.info/nuget/File.TypeChecker.Web)](https://www.nuget.org/packages/File.TypeChecker.Web/)
+[![Build status](https://ci.appveyor.com/api/projects/status/jwd8wyyap0tijs3y?svg=true)](https://ci.appveyor.com/project/AJMitev/filetypechecker-web)  [![NuGet Badge](https://buildstats.info/nuget/File.TypeChecker.Web)](https://www.nuget.org/packages/File.TypeChecker.Web/)
 
 ## Project Description
 
