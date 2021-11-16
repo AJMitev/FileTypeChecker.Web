@@ -8,7 +8,6 @@
 
     public class AttribuTheoryests
     {
-
         [Theory]
         [InlineData("365-doc.docx", true)]
         [InlineData("test.pdf", true)]
@@ -90,7 +89,6 @@
 
             Assert.Throws<InvalidOperationException>(() => attributeToTheory.IsValid(stream));
         }
-
 
         [Theory]
         [InlineData("test.png", false)]
