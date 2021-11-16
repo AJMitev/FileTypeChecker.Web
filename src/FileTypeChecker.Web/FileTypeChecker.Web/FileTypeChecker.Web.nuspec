@@ -6,10 +6,11 @@
     <title>FileTypeChecker.Web</title>
     <authors>Aleksandar J. Mitev</authors>
     <owners>Aleksandar J. Mitev</owners>
-    <license type="expression">MIT</license>
-    <projectUrl>https://github.com/AJMitev/FileTypeChecker</projectUrl>
+    <license type="expression">GPL-3.0-or-later</license>
+    <licenseUrl>https://github.com/AJMitev/FileTypeChecker.Web/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/AJMitev/FileTypeChecker.Web</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/AJMitev/FileTypeChecker/master/tools/FileTypeCheckerLogo-150.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Don't let users to inject you an invalid file! FileTypeChecker is a easy to use library that allows you to read file and recognize its type. This will help you to validate all files that is provided by external sources.</description>
     <copyright>2019-2021</copyright>
     <tags>TypeChecking TypeValidating Files FileChecking FileValidation Validation File Type Validator Checker Magic Numbers Identifying Bytes</tags>
@@ -20,11 +21,7 @@
   </metadata>
 
   <files>
-    <file src="bin\Debug\netstandard2.1\FileTypeChecker.Common.dll" target="lib\netstandard2.1\FileTypeChecker.Common.dll"/>    
-    <file src="bin\Debug\netstandard2.1\FileTypeChecker.Common.pdb" target="lib\netstandard2.1\FileTypeChecker.Common.pdb" />
     <file src="bin\Debug\netstandard2.1\FileTypeChecker.Web.dll" target="lib\netstandard2.1\FileTypeChecker.Web.dll"/>    
-    <file src="bin\Debug\netstandard2.1\FileTypeChecker.Web.pdb" target="lib\netstandard2.1\FileTypeChecker.Web.pdb" />    
-    <file src="bin\Debug\netstandard2.1\FileTypeChecker.dll" target="lib\netstandard2.1\FileTypeChecker.dll"/>    
-    <file src="bin\Debug\netstandard2.1\FileTypeChecker.pdb" target="lib\netstandard2.1\FileTypeChecker.pdb" />
+    <file src="bin\Debug\netstandard2.1\FileTypeChecker.Web.pdb" target="lib\netstandard2.1\FileTypeChecker.Web.pdb" /> 
   </files>
 </package>
