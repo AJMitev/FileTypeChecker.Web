@@ -5,7 +5,7 @@
     using Microsoft.AspNetCore.Http;
     using System.IO;
 
-    public static class s
+    public static class IFormFileExtensions
     {
         /// <summary>
         /// Validates that the file is from certain type

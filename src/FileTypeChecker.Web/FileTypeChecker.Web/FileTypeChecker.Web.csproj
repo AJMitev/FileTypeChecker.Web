@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <PackageId>File.TypeChecker.Web</PackageId>
-    <Version>1.2.4</Version>
+    <Version>2.0.0</Version>
     <Title>FileTypeChecker.Web</Title>
     <Authors>Aleksandar J. Mitev</Authors>
     <Company>Aleksandar J. Mitev</Company>
@@ -12,17 +12,23 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/AJMitev/FileTypeChecker</RepositoryUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/AJMitev/FileTypeChecker/master/tools/FileTypeCheckerLogo-150.png</PackageIconUrl>
-    <Description>Don't let users to inject you an invalid file! FileTypeChecker is a easy to use library that allows you to read file and recognize its type. This will help you to validate all files that is provided by external sources.</Description>
+    <Description>Secure file type validation for ASP.NET applications using magic number detection. Protect your web applications from malicious file uploads with reliable file type identification.</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageTags>TypeChecking TypeValidating Files FileChecking FileValidation Validation File Type Validator Checker Magic Numbers Identifying Bytes</PackageTags>
+    <PackageTags>TypeChecking TypeValidating Files FileChecking FileValidation Validation File Type Validator Checker Magic Numbers Identifying Bytes ASP.NET Core Security Upload</PackageTags>
     <NuspecFile>./FileTypeChecker.Web.nuspec</NuspecFile>
     <DebugType>full</DebugType>
   </PropertyGroup>
 
+  <!-- .NET 8.0 specific settings -->
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="File.TypeChecker" Version="2.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.8" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="File.TypeChecker" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
   </ItemGroup>
 </Project>
